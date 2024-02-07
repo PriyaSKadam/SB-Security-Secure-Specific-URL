@@ -24,6 +24,9 @@ public class SecurityConfiguration {
 		return http.build();
 	}
 	
+	
+	
+	// In-Memory Authontication is not recommended for production
 	@Bean
 	public InMemoryUserDetailsManager inMemoryUser()
 	{
